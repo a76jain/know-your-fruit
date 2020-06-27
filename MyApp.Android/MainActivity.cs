@@ -1,4 +1,4 @@
-﻿using Android.App;
+using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
@@ -6,6 +6,7 @@ using Android.Bluetooth;
 using Android.AccessibilityServices;
 using Android.Accounts;
 using Android.Animation;
+
 
 
 namespace MyApp.Droid
