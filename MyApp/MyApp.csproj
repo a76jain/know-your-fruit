@@ -11,7 +11,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Images\fruit.jpeg" />
+    <None Remove="Images\fruit.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Images\fruit.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.495" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\fruit.jpeg" />
   </ItemGroup>
 </Project>

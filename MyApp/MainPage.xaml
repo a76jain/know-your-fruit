@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="MyApp.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="MyApp.MainPage" xmlns:local="clr-namespace:MyApp;assembly=MyApp">
+    <StackLayout Spacing="20">
+        <Label Text="Know Your Fruit" HorizontalOptions="Center" />
+        <Image Source="{local:ImageResource MyApp.Assets.Images.fruit.jpeg}" HorizontalOptions="CenterAndExpand" />
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="40">
+            <Button Text="Camera" x:Name="cameraBtn"/>
+            <Button Text="Favorites" x:Name="FavoritesBtn"/>
+            <Button Text="History" x:Name="HistoryBtn"/>
+        </StackLayout>
     </StackLayout>
 </ContentPage>
