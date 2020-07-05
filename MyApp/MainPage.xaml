@@ -4,7 +4,7 @@
         <Label Text="Know Your Fruit" HorizontalOptions="Center" />
         <Image Source="{local:ImageResource MyApp.Assets.Images.fruit.jpeg}" HorizontalOptions="CenterAndExpand" />
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
-            <Button Text="Camera" x:Name="cameraBtn"/>
+            <Button Text="Camera" x:Name="cameraBtn" Clicked="CameraBtn_Clicked"/>
             <Button Text="Favorites" x:Name="FavoritesBtn" Padding="2"/>
             <Button Text="History" x:Name="HistoryBtn"/>
         </StackLayout>

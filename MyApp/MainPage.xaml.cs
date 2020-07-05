@@ -19,6 +19,11 @@ namespace MyApp
         {
             InitializeComponent();
         }
+
+        private void CameraBtn_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 
     [ContentProperty(nameof(Source))]
