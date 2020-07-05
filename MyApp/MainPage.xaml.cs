@@ -20,9 +20,9 @@ namespace MyApp
             InitializeComponent();
         }
 
-        private void CameraBtn_Clicked(object sender, EventArgs e)
+        private async void CameraBtn_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new Camera());
         }
     }
 
